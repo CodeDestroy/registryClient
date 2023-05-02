@@ -1,0 +1,23 @@
+/* @font-face {
+    font-family: TTCommons; 
+    src: local('TTCommons'), url(./fonts/TT Commons Medium.otf) format('otf');
+    src: url(fonts/TT Commons Medium.otf); Путь к файлу со шрифтом 
+ } */
+
+.button-header {
+	color: #fafafa!important;
+	margin-top: 1rem!important;
+	font-size: 1rem!important;
+	
+	
+
+}
+.button-header:hover   {
+	color: white!important;
+	/* border-bottom: white; */
+	
+	text-decoration: underline!important;
+}
+.kvazar {
+	font-family: sans-serif;
+}

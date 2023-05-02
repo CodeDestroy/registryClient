@@ -5,6 +5,7 @@ import { React, useContext, useEffect } from 'react';
 import MainPage from './MainPage';
 import Login from './Login';
 import { Context } from './';
+import Router from './Router';
 
 function App() {
   
@@ -23,7 +24,8 @@ function App() {
       { !store.isAuth ?
         <Login/>
         :
-        <MainPage/>
+        <Router/>
+        /* <MainPage/> */
       } 
     </>
   );

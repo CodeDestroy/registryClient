@@ -14,7 +14,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Context } from './';
 import AuthService from './services/AuthService';
-
+import logo from './logo_quasar.png'
 export default function SignIn() {
 
 
@@ -64,11 +64,12 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
-          </Avatar>
+          
+          <img style={{marginTop: '2rem', marginBottom: '1rem'}} src={logo}/>
+          
+          
           <Typography component="h1" variant="h5">
-            Войти
+            Реестр пациентов, страдающих рассеяным склерозом (G35) (Воронежская область)
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField

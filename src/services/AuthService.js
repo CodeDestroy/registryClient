@@ -15,4 +15,8 @@ export default class AuthService {
         return $api.post('/auth/logout');
     }
 
+    static async getAccesses (user_id) {
+        return $api.post('/auth/getAccesses', {user_id})
+    }
+
 }
